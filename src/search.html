@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索聚会 - FindFun桌游聚会</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>搜索聚会</h1>
+  </header>
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="create.html">发布聚会</a>
+    <a href="match.html">聚会匹配</a>
+    <a href="review.html">评估系统</a>
+  </nav>
+  <main>
+    <section>
+      <!-- 在这里添加搜索聚会的表单内容 -->
+      <form id="search-event-form">
+        <h2>搜索聚会</h2>
+        <label for="search-location">地点</label>
+        <input type="text" id="search-location" required>
+        <label for="search-date">日期</label>
+        <input type="date" id="search-date" required>
+        <label for="search-type">游戏类型</label>
+        <input type="text" id="search-type" required>
+        <button type="submit">搜索聚会</button>
+      </form>
+      
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 FindFun桌游聚会. All rights reserved.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

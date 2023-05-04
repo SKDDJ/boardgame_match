@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发布聚会 - FindFun桌游聚会</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>发布聚会</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="search.html">搜索聚会</a>
+    <a href="match.html">聚会匹配</a>
+    <a href="review.html">评估系统</a>
+  </nav>
+
+  <main>
+    <section>
+      <!-- 在这里添加发布聚会的表单内容 -->
+      <form id="create-event-form">
+        <h2>发布聚会</h2>
+        <label for="event-title">标题</label>
+        <input type="text" id="event-title" required>
+        <label for="event-location">地点</label>
+        <input type="text" id="event-location" required>
+        <label for="event-date">日期</label>
+        <input type="date" id="event-date" required>
+        <label for="event-time">时间</label>
+        <input type="time" id="event-time" required>
+        <label for="event-type">桌游类型</label>
+        <input type="text" id="event-type" required>
+        <label for="event-max-players">最大玩家人数</label>
+        <input type="number" id="event-max-players" required>
+        <button type="submit">发布聚会</button>
+      </form>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 FindFun桌游聚会. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

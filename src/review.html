@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>评估系统 - FindFun桌游聚会</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>评估系统</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">首页</a>
+    <a href="create.html">发布聚会</a>
+    <a href="search.html">搜索聚会</a>
+    <a href="match.html">聚会匹配</a>
+  </nav>
+
+  <main>
+    <section>
+      <!-- 在这里添加评估系统的表单内容 -->
+      <form id="review-form">
+        <h2>评估系统</h2>
+        <label for="reviewer-name">姓名</label>
+        <input type="text" id="reviewer-name" required>
+        <label for="reviewer-email">电子邮件</label>
+        <input type="email" id="reviewer-email" required>
+        <label for="reviewer-phone">电话号码</label>
+        <input type="tel" id="reviewer-phone" required>
+        <label for="review-text">对桌游聚会的评价</label>
+        <textarea id="review-text" required></textarea>
+        <label for="review-rating">评分（1-5星）</label>
+        <select id="review-rating" required>
+          <option value="1">1星</option>
+          <option value="2">2星</option>
+          <option value="3">3星</option>
+          <option value="4">4星</option>
+          <option value="5">5星</option>
+        </select>
+        <button type="submit">提交评价</button>
+
+    </form>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 FindFun桌游聚会. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
